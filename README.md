@@ -2,8 +2,8 @@
 
 ## Instruções:
 ------------------
-[] git clone https://github.com/gabrielmoura33/maze-generator.git
+[ x ] git clone https://github.com/gabrielmoura33/maze-generator.git
 
-[] Abrir no VSCode.
+[ x ] Abrir no VSCode.
 
-[] Iniciar com Live Server.
+[ x ] Iniciar com Live Server.
