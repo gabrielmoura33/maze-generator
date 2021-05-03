@@ -16,6 +16,9 @@ function setup() {
     }
   }
 
+  grid[0].state = 's';
+  console.log(grid[0])
+  // grid[cols - 1][rows - 1].state = 'f';
   current = grid[0];
 }
 
@@ -37,6 +40,7 @@ function draw() {
   } else if (stack.length > 0) {
     current = stack.pop();
   }
+  
 }
 
 function index(i, j) {

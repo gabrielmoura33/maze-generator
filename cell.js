@@ -3,6 +3,7 @@ function Cell(i, j) {
   this.j = j;
   this.walls = [true, true, true, true];
   this.visited = false;
+  this.state = 'e';
 
   this.checkNeighbors = function() {
     let neighbors = [];
@@ -62,5 +63,11 @@ function Cell(i, j) {
       fill(255, 0, 255, 100);
       rect(x, y, w, w);
     }
+
+    if(this.state === 's') {
+      fill(124, 0, 252, 0)
+    }
   };
+
+
 }
